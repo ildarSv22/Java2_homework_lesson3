@@ -8,15 +8,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-    /*    String [] order = {"Pizza", "Burger","Burger", "Sushi", "Juice", "Kebab","Kebab",
+       String [] order = {"Pizza", "Burger","Burger", "Sushi", "Juice", "Kebab","Kebab",
                         "Cola", "Beer", "Beer", "French fries","Juice","French fries","French fries"};
         Map <String, Integer> map = new HashMap<>();
-        for (int i = 0; i < order.length; i++){
+        for (int i = 0; i < order.length; i++) {
             String meal = order[i];
-            int val = map.getOrDefault(meal,0);
-            map.put(meal,val + 1);
+            int val = map.getOrDefault(meal, 0);
+            map.put(meal, val + 1);
         }
-        System.out.println(map); */
+        System.out.println(map);
 
         Phonebook phonebook = new Phonebook();
         phonebook.add("Smirnov","5551520");
